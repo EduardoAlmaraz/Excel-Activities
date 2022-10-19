@@ -20,7 +20,7 @@ Cuando quieras hacer referencia a variables en lugar de constantes, puede usar v
 
 > **NOTA**:También puede crear una fórmula usando una función, una fórmula predefinida que simplifica la introducción los cálculos.
 
-![fórmula](./formula.gif)
+![fórmula](./img/formula.gif)
 
 1. signos iguales inician todas las fórmulas.
 
@@ -40,23 +40,23 @@ Cuando quieras hacer referencia a variables en lugar de constantes, puede usar v
 
 3. Haga clic en la primera celda que desee incluir en el cálculo.
 
-    ![Ejemplo de uso de una referencia de celda en una fórmula](./1_excel.png)
+    ![Ejemplo de uso de una referencia de celda en una fórmula](./img/1_excel.png)
 
 4. Escriba un operador. Un operador es el tipo de cálculo que la fórmula realiza. Por ejemplo, el operador `*` (asterisco) multiplica números. En este ejemplo, utilice la `/` (barra diagonal) para dividir. En este punto la fórmula debe tener el siguiente aspecto:
 
-    ![Ejemplo del uso de un operador en una fórmula](./2_excel.png)
+    ![Ejemplo del uso de un operador en una fórmula](./img/2_excel.png)
 
 5. Haga clic en la celda siguiente que desea incluir en el cálculo. Ahora la fórmula debe tener el siguiente aspecto:
 
-    ![Ejemplo del uso de dos referencias de celda en una fórmula](./3_excel.png)
+    ![Ejemplo del uso de dos referencias de celda en una fórmula](./img/3_excel.png)
 
 6. Presione INTRO
 
     El resultado del cálculo aparece en la celda.
 
-    ![Ejemplo de uso de referencias de celda en una fórmula, se muestra el resultado calculado](./4_excel.png)
+    ![Ejemplo de uso de referencias de celda en una fórmula, se muestra el resultado calculado](./img/4_excel.png)
 
-> **Sugerencia**: Para aplicar una fórmula en las siguientes celdas hacia abajo de la columna, haga doble clic en la ![controlador de relleno Controlador de relleno](./5_excel.png) primera celda que contiene la fórmula.
+> **Sugerencia**: Para aplicar una fórmula en las siguientes celdas hacia abajo de la columna, haga doble clic en la ![controlador de relleno Controlador de relleno](./img/5_excel.png) primera celda que contiene la fórmula.
 
 ### Escribir una fórmula que contiene una función
 
@@ -66,7 +66,7 @@ Cuando quieras hacer referencia a variables en lugar de constantes, puede usar v
 
 3. Escriba un paréntesis de apertura, seleccione el rango de celdas que desea incluir en la fórmula y después, escriba un paréntesis de cierre.
 
-    ![Ejemplo que muestra el uso de la función MIN](./6_excel.png)
+    ![Ejemplo que muestra el uso de la función MIN](./img/6_excel.png)
 
 4. Presione INTRO
 
@@ -76,23 +76,23 @@ Cuando quieras hacer referencia a variables en lugar de constantes, puede usar v
 
 Cuando escriba una fórmula en una celda también aparecerá en la barra de fórmulas.
 
-![Barra de fórmulas que muestra una fórmula](./7_excel.png)
+![Barra de fórmulas que muestra una fórmula](./img/7_excel.png)
 
 Usar los métodos abreviados en la barra de fórmulas para ayudarle a crear fórmulas:
 
-- Seleccione esta opción para ![Marca de verificación verde en la barra de fórmulas](./8_excel.png) comprobar la fórmula. Si no hay errores, la celda mostrará el resultado de la fórmula. Si hay errores, verá ![Símbolo que muestra un error en una fórmula](./9_excel.png). Desplace el puntero sobre él para obtener una explicación del problema, o bien, seleccione la lista desplegable para obtener más ayuda.
+- Seleccione esta opción para ![Marca de verificación verde en la barra de fórmulas](./img/8_excel.png) comprobar la fórmula. Si no hay errores, la celda mostrará el resultado de la fórmula. Si hay errores, verá ![Símbolo que muestra un error en una fórmula](./img/9_excel.png). Desplace el puntero sobre él para obtener una explicación del problema, o bien, seleccione la lista desplegable para obtener más ayuda.
 
-- Seleccione esta opción para ![X roja en la barra de fórmulas](./10_excel.png) volver a la fórmula anterior.
+- Seleccione esta opción para ![X roja en la barra de fórmulas](./img/10_excel.png) volver a la fórmula anterior.
 
-- ![Desplace el puntero sobre un símbolo de error para ver una explicación del mismo.](./11_excel.png)
+- ![Desplace el puntero sobre un símbolo de error para ver una explicación del mismo.](./img/11_excel.png)
 
 - Para seleccionar una función, utilice la lista de funciones.
 
-    ![Lista de funciones en la barra de fórmulas](./12_excel.png)
+    ![Lista de funciones en la barra de fórmulas](./img/12_excel.png)
 
     Cuando se selecciona una función, se abre el Generador de fórmulas, con información adicional sobre la función.
 
-    ![Generador de fórmulas](./13_excel.png)
+    ![Generador de fórmulas](./img/13_excel.png)
 
 ## Actividad de clase
 
@@ -126,7 +126,7 @@ Esta actividad muestra los pasos realizados en clase y para replicarla, ejecuta 
     Después de ingresar la función o fórmula, presione INTRO.
 
 9. Finalmente se muestra el promedio que es `56.6666667`.
-10. Para que el resultado no muestre tantos decimales, seleccione la celda `D4` y hacer clic en _**Inicio**_ > _**Número**_ > ![quitar decimales](./14_excel.png) (Hacer tantos clic como sea posible hasta obtener `56.67`).
+10. Para que el resultado no muestre tantos decimales, seleccione la celda `D4` y hacer clic en _**Inicio**_ > _**Número**_ > ![quitar decimales](./img/14_excel.png) (Hacer tantos clic como sea posible hasta obtener `56.67`).
 11. Finalmente para validar un campo por su contenido, se selecciona la celda `B1`, después _**Inicio**_ > _**Estilos**_ > _**Formato condicional**_ > _Reglas para resaltar celdas_ > _Texto que contiene_.
 12. En el campo que se muestra en la nueva ventana debe escribir `Info` y en las opciones del segundo campo, seleccionar `Relleno verde con texto verde oscuro`.
 13. Hacer clic en Aceptar. _(Inmediatamente cambiaará el formato de la celda)_
