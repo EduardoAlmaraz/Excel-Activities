@@ -105,7 +105,7 @@ Esta actividad muestra los pasos realizados en clase y para replicarla, ejecuta 
 3. Ubicarse en la celda `A3` y escribir la cantidad de `1500`, presione INTRO.
 4. Ahora, en la celda `B1`, escribir el texto `Informática II`, presione INTRO.
 5. Ingresamos la fórmula `=B1` en la celda `C2`, presione INTRO. _(Se muestra el valor de B1, 'Informática II')_
-6. En la celda `C3` ingresar la fórmula `=A3-100`, presione INTRO. _(Se muestra '500', que es la resta de '1500-1000')_
+6. En la celda `C3` ingresar la fórmula `=A3-1000`, presione INTRO. _(Se muestra '500', que es la resta de '1500-1000')_
 7. Ingresamos los siguientes datos:
 
    |Celda|Valor|
