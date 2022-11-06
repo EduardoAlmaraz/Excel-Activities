@@ -28,7 +28,7 @@ Aun así, hay situaciones en las que todavía no puedes averiguar qué salió ma
 
 ### "#¡VALOR!"
 
-Excel muestra el error de #¡VALOR! cuando encuentra espacios, caracteres o texto en una fórmula donde espera un número.
+Excel muestra el error de `#¡VALOR!` cuando encuentra espacios, caracteres o texto en una fórmula donde espera un número.
 
 Excel requiere que las fórmulas contengan solo números, por lo que te mostrará un error si has incluido algo más.
 
@@ -60,7 +60,7 @@ También puedes haber escrito la fórmula correctamente, pero no ingresaste sufi
 
 **Cómo resolver este error**:
 
-¿Para arreglar el error #¿NOMBRE? en Excel verifica la ortografía de la fórmula que estás intentando ejecutar.
+¿Para arreglar el error `#¿NOMBRE?` en Excel verifica la ortografía de la fórmula que estás intentando ejecutar.
 
 Si la fórmula está escrita correctamente y tu hoja de cálculo aún muestra un error, es probable que Excel se esté confundiendo con una de tus entradas dentro de la fórmula.
 
@@ -192,3 +192,38 @@ De inmediato podrás ver las cantidades ya formateadas como lo indicaste.
 
 ## Actividad de clase
 
+La siguiente actividad propone provocar intencionalmente algunos de los errores mencionados en este documento y practicar la resolución de los mismos.
+
+Para ello, se presenta un archivo de excel con los siguientes datos:
+
+|-|A|B|C|D|
+|-|-|-|-|-|
+|1||Enero|Febrero|Marzo|
+|2|Ingresos|430||570|
+|3|Alquiler|-210|-211|-210|
+|4|Otros Gastos|-45|-51|-60|
+|5||`=SUMA(B2:B4)`|`=SUMA(C2:C4)`|`=SUMA(D2:D4)`|
+
+Adicionalmente una tabla en la que se tienen que producir los errores vistos en clase (Columna `F`):
+
+|...|F|G|
+|-|-|-|
+|1|Error|Comentario|
+|2||No existe una celda de intersección
+|3||El divisor no puede ser cero
+|4||La fórmula contiene tipos de argumentos no válidos
+|5||Nombre de la función o del rango desconocido
+|6||No es un número válido
+|7||Faltan datos
+
+1. En la celda `F2`, ingresar la función `=SUMA(B2 D2)` y hacer _Intro_. Se mostrará el error `#¡NULO!` que indica que no existe una celda o rango en el argumento toda vez que un rango sería `B2:D2` o si sólo se requieren las dos celdas sería `B2,D2`.
+2. En la celda `F3`, ingresar la fórmula `=C5/C2` y hacer _Intro_. Se muestra el error `#¡DIV/0!` que se describe como una visión en la que el divisor es 0, en este caso porque la celda C2 esta vacía.
+3. En la celda `F4`, ingresar la fórmula `=D2-"hola"` y hacer _Intro_. Se muestra el error `#¡VALOR!` ya que lo que se le ha pasado para restar en un texto que no es compatible con número.
+4. En la celda `F5`, ingresamos la fórmula `=SUMAR(B2:D2)` y hacer _Intro_. Se muestra el error `#¿NOMBRE?` por que hemos ingresado una función que no está definida dentro de Excel.
+5. En la celda `F6`, ingresa la función `=RAIZ(B3)` y hacer _Intro_. Se muestra el error `#¡NUM!` ya que de matemáticas es sabido que no se puede obtener la raíz cuadrada de un número negativo.
+6. Finalmente, en la celda `F7`, ingresa la función `=BUSCARV("Egresos",A1:D5,2,0)` y haz _Intro_. Se muestra el error `#N/A` o `#N/D` al no encontrar la palabra "Egresos" en la tabla de datos.
+
+Puedes descargar al archivo [ejercicio_errores](./ejercicio_errores.xlsx) para realizar el ejercicio.
+
+> Cambiar el nombre de la hoja de cálculo con su nombre.<br>
+> Guardar el archivo con el nombre `3_1_actividad_nombre-completo`.
