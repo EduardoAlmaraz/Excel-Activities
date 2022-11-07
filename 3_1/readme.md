@@ -227,3 +227,4 @@ Puedes descargar al archivo [ejercicio_errores](./ejercicio_errores.xlsx) para r
 
 > Cambiar el nombre de la hoja de cálculo con su nombre.<br>
 > Guardar el archivo con el nombre `3_1_actividad_nombre-completo`.
+  
