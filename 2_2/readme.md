@@ -5,7 +5,7 @@
 - [Uso de las fórmulas más utilizadas en Excel](#uso-de-las-fórmulas-más-utilizadas-en-excel)
   - [Índice](#índice)
   - [Top fórmulas más usadas](#top-fórmulas-más-usadas)
-  - [Actividad de clase](#actividad-de-clase)
+  - [Actividad para enviar](#actividad-para-enviar)
 
 ## Top fórmulas más usadas
 
@@ -24,7 +24,7 @@ A Continuación se muestran las fórmulas más utilizadas en Microsoft Excel:
 |`=CONCATENAR()`|Esta fórmula nos permite unir dos o más cadenas de texto en una sola celda. Por ejemplo tenemos una columna "nombres" y otra "apellidos", y queremos crear una tercera columna llamada "nombre completo". En este caso queremos unir el nombre con el apellido, y además poner un espacio entremedio. Se haría de la siguiente manera:|`=CONCATENAR("A1", " ", "B1")`|
 |`=ALEATORIO.ENTRE()`|Muchas veces se necesita llenar una tabla con números distintos de manera rápida, solamente para mostrar algo y nos pasamos un buen rato escribiendo número uno a uno y tratando de que sean distintos entre sí.<br>Bueno, ALEATORIO.ENTRE nos permitegenerar un número aleatorio en un rango que nosotros especificamos:|`=ALEATORIO.ENTRE(100, 1000)`|
 
-## Actividad de clase
+## Actividad para enviar
 
 Dada la siguiente tabla que relaciona los alumnos de una clase con los siguientes parámetros:
 
@@ -38,15 +38,42 @@ Dada la siguiente tabla que relaciona los alumnos de una clase con los siguiente
 Se pide:
 
 1. Hallar la nota media de los alumnos.
+
+   Usa `=PROMEDIO(E4:E12)` en `C15`
+
 2. Hallar la nota máxima obtenida.
+
+   Usa `=MAX(E4:E12)` en `C16`
+
 3. Hallar la nota más baja obtenida.
+
+   Usa `=MIN(E4:E12)` en `C17`
+
 4. Contar el número de alumnos participantes.
+
+   Usa `=CONTARA(B4:B12)` en `C18`
+
 5. Hallar la nota media para cada orientación académica.
+
+   Usa `=PROMEDIO.SI(D4:D12,B21,E4:E12)` en `C21`
+
+   **En `C22` utiliza la misma fórmula pero ahora pa obtener el promedio por la materia _Ciencias_**
+
 6. Hallar la nota media para cada clase.
+
+   Usa `=PROMEDIO.SI(C4:C12,B25,E4:E12)` en `C25`
+
+   **En `C26` y `C27` utiliza la misma fórmula pero ahora pa obtener el promedio por la clase _B_ y _C_**
+
 7. Hallar la clase y nota de un alumno (por ejemplo Raúl).
+
+   Usa `=BUSCARV(G16,B4:E12,2,0)` en `H16`
+
 8. Contar el número de personas que han sacado una nota igual o superior a 7.
+
+   Usa `=CONTAR.SI(E4:E12,">=7")` en `G21`
 
 Puedes descargar al archivo [activity.xlsx](./activity.xlsx) para realizar el ejercicio.
 
-> Cambiar el nombre de la hoja de cálculo con su nombre.<br>
+> Cambiar el nombre de la hoja de cálculo con su nombre.
 > Guardar el archivo con el nombre `2_2_actividad_nombre-completo`.
