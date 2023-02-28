@@ -57,13 +57,13 @@ Se pide:
 
    Usa `=PROMEDIO.SI(D4:D12,B21,E4:E12)` en `C21`
 
-   **En `C22` utiliza la misma fórmula pero ahora pa obtener el promedio por la materia _Ciencias_**
+   **En `C22` utiliza la misma fórmula pero ahora para obtener el promedio por la materia _Ciencias_**
 
 6. Hallar la nota media para cada clase.
 
    Usa `=PROMEDIO.SI(C4:C12,B25,E4:E12)` en `C25`
 
-   **En `C26` y `C27` utiliza la misma fórmula pero ahora pa obtener el promedio por la clase _B_ y _C_**
+   **En `C26` y `C27` utiliza la misma fórmula pero ahora para obtener el promedio por la clase _B_ y _C_**
 
 7. Hallar la clase y nota de un alumno (por ejemplo Raúl).
 
